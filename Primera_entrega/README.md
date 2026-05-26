@@ -1,73 +1,68 @@
-﻿```markdown
-# Proyecto de Investigación Big Data
+﻿# Primera Entrega - Proyecto de Investigación Big Data
 ## Conectividad a Internet y Resultados ICFES en Municipios de Colombia
 
-Este repositorio contiene el trabajo desarrollado para el análisis de conectividad y resultados ICFES en municipios colombianos. Los archivos se organizan en notebooks, documentos PDF y referencias.
-
 ---
 
-## Estructura del Repositorio
+## Contenido de esta Entrega
 
-| Tipo | Archivo | Descripción breve |
+| Archivo | Tipo | Descripción |
 |---|---|---|
-| Notebook | `Bono_WebScraping.ipynb` | Proceso de extracción de datos de fuentes públicas mediante web scraping. Incluye limpieza de datos y gráficos de distribución. |
-| Notebook | `Bono_OpenWeather.ipynb` | Análisis de datos meteorológicos con la API de OpenWeather. Contiene visualizaciones de clima y posibles correlaciones con variables de conectividad. |
-| PDF | `Documento-entrega1.pdf` | Informe formal de la entrega 1. Presenta metodología, resultados, conclusiones y recomendaciones. |
-| PDF | `Presentación de gráficos visuales Análisis DAFO Sencillo Colorido.pdf` | Presentación con gráficos y análisis visual del proyecto para mostrar hallazgos de forma sintética. |
-| Referencias | `referencias.bib` | Archivo BibTeX con fuentes bibliográficas. Generado con Zotero. |
+| `Proyecto.ipynb` | Notebook | **Análisis principal** del proyecto con visualizaciones y análisis integral de conectividad e ICFES |
+| `LimpiezaConjuntosDatos.ipynb` | Notebook | Proceso de limpieza, validación y transformación de los conjuntos de datos crudos |
+| `Bono_WebScraping.ipynb` | Notebook | Extracción de datos de fuentes públicas mediante web scraping e integración en el análisis |
+| `Bono_OpenWeather.ipynb` | Notebook | Análisis de datos meteorológicos y correlaciones con variables de conectividad |
+| `Documento-entrega1.pdf` | Documento | Informe formal con metodología, resultados, análisis y conclusiones |
+| `Presentación.pdf` | Documento | Presentación visual con gráficos clave y hallazgos principales |
+| `referencias.bib` | Referencias | Fuentes bibliográficas en formato BibTeX (Zotero) |
 
 ---
 
-## Descripción detallada de archivos
+## Cómo navegar este proyecto
+
+### Para una revisión completa:
+1. Comience con `Proyecto.ipynb` - contiene el análisis integral y visualizaciones
+2. Revise `LimpiezaConjuntosDatos.ipynb` para entender el procesamiento de datos
+3. Explore `Bono_WebScraping.ipynb` y `Bono_OpenWeather.ipynb` para análisis complementarios
+4. Consulte `Documento-entrega1.pdf` para el informe técnico completo
+5. Use `Presentación.pdf` para una visión ejecutiva con gráficos
+
+### Para una revisión rápida:
+- Lea `Presentación.pdf`
+- Revise `Documento-entrega1.pdf` y ejecute `Proyecto.ipynb`
+
+---
+
+## Descripción de Notebooks
+
+### `Proyecto.ipynb`
+Análisis integral con:
+- Carga y exploración de datos
+- Análisis exploratorio (EDA)
+- Visualizaciones multidimensionales
+- Correlaciones entre conectividad e ICFES
+- Conclusiones y recomendaciones
+
+### `LimpiezaConjuntosDatos.ipynb`
+Procesamiento de datos:
+- Validación de integridad
+- Manejo de valores faltantes
+- Transformación y normalización
+- Control de calidad de datos
 
 ### `Bono_WebScraping.ipynb`
-- Contenido:
-  - Extracción de datos desde páginas web relevantes.
-  - Transformación y limpieza de la información.
-  - Tablas y gráficos resumen que muestran la calidad de los datos obtenidos.
-- Visualizaciones:
-  - Gráficos de barras y líneas para comparar variables.
-  - Diagramas que evidencian las fuentes de datos y su cobertura.
+Obtención de datos:
+- Web scraping de fuentes públicas
+- Transformación y limpieza
+- Tablas y gráficos de validación
 
 ### `Bono_OpenWeather.ipynb`
-- Contenido:
-  - Consultas a la API de OpenWeather.
-  - Análisis de variables climáticas clave.
-  - Posibles relaciones entre el clima y la conectividad en municipios.
-- Visualizaciones:
-  - Mapas de calor o series temporales de temperatura y precipitación.
-  - Gráficos de tendencias para mostrar cambios en el tiempo.
-
-### `Documento-entrega1.pdf`
-- Descripción:
-  - Documento principal de entrega.
-  - Incluye introducción, objetivos, metodología, resultados y conclusiones.
-  - Contiene tablas de resumen y explicaciones del análisis realizado.
-
-### `Presentación de gráficos visuales Análisis DAFO Sencillo Colorido.pdf`
-- Descripción:
-  - Presentación visual del proyecto.
-  - Incluye gráficos, análisis DAFO simplificado y conclusiones clave.
-  - Pensada para una exposición clara y directa de los resultados.
-
-### `referencias.bib`
-- Descripción:
-  - Archivo de referencias en formato BibTeX.
-  - Contiene las fuentes citadas en el proyecto.
-  - Generado con Zotero para mantener el control de las referencias.
+Análisis meteorológico:
+- Datos de API OpenWeather
+- Análisis de variables climáticas
+- Correlaciones con conectividad
 
 ---
 
-## Cómo revisar el proyecto
+## Referencias
 
-1. Abra los notebooks en el orden de análisis: primero `Bono_WebScraping.ipynb`, luego `Bono_OpenWeather.ipynb`.
-2. Revise `Documento-entrega1.pdf` para ver el informe formal de la entrega.
-3. Abra `Presentación de gráficos visuales Análisis DAFO Sencillo Colorido.pdf` para una visión gráfica del proyecto.
-4. Consulte `referencias.bib` para las fuentes bibliográficas utilizadas, creadas con Zotero.
-
----
-
-## Notas importantes
-- No se usa Google Colab en este repositorio.
-- El README actualiza la descripción según los archivos presentes en la carpeta.
-```
+Todas las fuentes citadas se encuentran en `referencias.bib` (generadas con Zotero).
